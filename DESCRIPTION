@@ -1,0 +1,16 @@
+Package: nepalmap
+Type: Package
+Title: Create Nepal Map
+Version: 0.1.0
+Author: Binod Jung Bogati
+Maintainer: Binod Jung Bogait <binod.bogati@numericmind.com>
+Description: Easily create nepal map in R for spatial data visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Enhances: sp
+Depends:
+    R (>= 3.3)
+Imports: 
+    ggplot2
+RoxygenNote: 7.1.1
