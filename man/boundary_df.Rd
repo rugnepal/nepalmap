@@ -5,10 +5,10 @@
 \alias{boundary_df}
 \title{Boundary shape files}
 \format{
-A spatial data frame with 1 rows and 15 variables:
+A spatial data frame with 1 rows and 4 columns:
 \describe{
-  \item{price}{price, in US dollars}
-  \item{carat}{weight of the diamond, in carats}
+  \item{id}{Id value}
+  \item{geometry}{Geometry coordinates of Boundary}
   ...
 }
 }
@@ -19,6 +19,6 @@ A spatial data frame with 1 rows and 15 variables:
 boundary_df
 }
 \description{
-A dataset map shape files with values of boundary
+A dataset map shape files with values of international boundary of Nepal
 }
 \keyword{datasets}

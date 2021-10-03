@@ -27,7 +27,7 @@
 
 province_map <- function(main_df = nepalmap::province_df, 
                          data = nepalmap::province_val, 
-                         fill = "capital", 
+                         fill = "id", 
                          label = "name", 
                          color = "white",
                          x = "lat", 
@@ -74,7 +74,7 @@ province_map <- function(main_df = nepalmap::province_df,
 
 district_map <- function(main_df = nepalmap::district_df, 
                          data = nepalmap::district_val, 
-                         fill = "district", 
+                         fill = "id", 
                          label = "district", 
                          color = "white", 
                          x = "lat", 

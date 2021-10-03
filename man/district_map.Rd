@@ -7,7 +7,7 @@
 district_map(
   main_df = nepalmap::district_df,
   data = nepalmap::district_val,
-  fill = "district",
+  fill = "id",
   label = "district",
   color = "white",
   x = "lat",

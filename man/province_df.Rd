@@ -5,10 +5,12 @@
 \alias{province_df}
 \title{Province shape files}
 \format{
-A spatial data frame with 7 rows and 15 variables:
+A spatial data frame with 7 rows and 4 columns:
 \describe{
-  \item{price}{price, in US dollars}
-  \item{carat}{weight of the diamond, in carats}
+  \item{id}{province number in digit}
+  \item{name}{province name}
+  \item{capital}{province capital}
+  \item{geometry}{Geometry coordinates of Provinces}
   ...
 }
 }

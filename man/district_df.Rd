@@ -5,10 +5,11 @@
 \alias{district_df}
 \title{District shape files}
 \format{
-A spatial data frame with 77 rows and 15 variables:
+A spatial data frame with 77 rows and 2 columns:
 \describe{
-  \item{price}{price, in US dollars}
-  \item{carat}{weight of the diamond, in carats}
+  \item{id}{ID Order by Province-wise District}
+  \item{district_id}{Id of each District}
+  \item{geometry}{Geometry coordinates of Districts}
   ...
 }
 }

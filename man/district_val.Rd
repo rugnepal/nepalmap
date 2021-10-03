@@ -7,8 +7,14 @@
 \format{
 A spatial data frame with 77 rows and 15 variables:
 \describe{
-  \item{price}{price, in US dollars}
-  \item{carat}{weight of the diamond, in carats}
+  \item{id}{ID order by Province-wise Districts}
+  \item{district_id}{ID of each Districts}
+  \item{province_n}{Province number in digit}
+  \item{province}{Province name}
+  \item{district}{District name}
+  \item{district_n}{Distric name in Nepali}
+  \item{lat}{Latitude}
+  \item{long}{Longitude}
   ...
 }
 }

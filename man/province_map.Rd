@@ -7,7 +7,7 @@
 province_map(
   main_df = nepalmap::province_df,
   data = nepalmap::province_val,
-  fill = "capital",
+  fill = "id",
   label = "name",
   color = "white",
   x = "lat",

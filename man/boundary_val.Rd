@@ -5,10 +5,11 @@
 \alias{boundary_val}
 \title{Boundary values files}
 \format{
-A spatial data frame with 1 rows and 15 variables:
+A spatial data frame with 1 rows and 4 columns:
 \describe{
-  \item{price}{price, in US dollars}
-  \item{carat}{weight of the diamond, in carats}
+  \item{id}{ID of boundary}
+  \item{lat}{Latitude}
+  \item{long}{Longitude}
   ...
 }
 }
@@ -19,6 +20,6 @@ A spatial data frame with 1 rows and 15 variables:
 boundary_val
 }
 \description{
-A dataset with value of shape files with values of boundary
+A dataset with value of shape files with boundary values
 }
 \keyword{datasets}
