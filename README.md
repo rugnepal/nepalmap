@@ -7,7 +7,7 @@ Latest Map of Nepal with 77 districts and 7 provinces for spatial data visualiza
 
 `install.packages("devtools")`
 
-`devtools::install_github("bjungbogati/nepalmap")`
+`devtools::install_github("rugnepal/nepalmap")`
 
 ### Second - Load the package
 
